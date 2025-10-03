@@ -1,11 +1,10 @@
 <template>
+  <AppTopBar />
   <v-main>
     <router-view />
   </v-main>
-
-  <AppFooter />
 </template>
 
 <script setup>
-  //
+import AppTopBar from "@/components/AppTopBar.vue";
 </script>
